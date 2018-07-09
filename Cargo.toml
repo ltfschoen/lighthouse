@@ -6,6 +6,7 @@ authors = ["Paul Hauner <paul@paulhauner.com>"]
 [dependencies]
 ethereum-types = ""
 rand = ""
+bytes = "^0.4.8"
 bls = { git = "https://github.com/sigp/bls" }
 rlp = { path = "parity/util/rlp" }
 
